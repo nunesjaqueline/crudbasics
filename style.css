@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+
+.container {
+    min-width: 576px;
+    display: flex;
+    gap: 50px;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color:  #024;
+    color: #fff;
+   
+}
+
+#input {
+    border: 2px solid #3366ff;
+}
+
+#posts {
+    width: 400px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+#msg {
+    color: red;
+}
+
+i {
+    cursor: pointer;
+}
+
+button {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 6rem;
+    background-color: #3366ff;
+    color: #fff;
+    border: none;
+    transition: all .5s ease-in-out;
+}
+
+button:hover {
+    color: #024;
+    background-color: #fff;
+}
