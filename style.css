@@ -49,13 +49,13 @@ button {
     width: 6rem;
     height: 3rem;
     border-radius: 6rem;
-    background-color: #3366ff;
-    color: #fff;
+    background-color: #fff;
+    color: #3366ff;
     border: none;
     transition: all .5s ease-in-out;
 }
 
 button:hover {
-    color: #024;
-    background-color: #fff;
+    color: #fff;
+    background-color: #024;
 }
